@@ -1,0 +1,29 @@
+{
+  "name": "marvel-characters",
+  "version": "1.0.0",
+  "description": "Fanpage with the information of Marvel characters.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjflores92/marvel-characters.git"
+  },
+  "keywords": [
+    "marvel",
+    "characters",
+    "spa",
+    "single",
+    "page",
+    "application",
+    "marvel",
+    "characters"
+  ],
+  "author": "Francisco Flores <fflores.ic.ipn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fjflores92/marvel-characters/issues"
+  },
+  "homepage": "https://github.com/fjflores92/marvel-characters#readme"
+}
