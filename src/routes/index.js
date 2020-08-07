@@ -7,7 +7,7 @@ import resolveRoutes from '../utils/resolveRoutes';
 
 const routes = {
     '/': Home,
-    '/:name': Character,
+    '/characters/:name': Character,
     '/contact': 'Contact',
 };
 
@@ -18,9 +18,8 @@ const router = async () => {
     let hash = getHash();
     console.log(hash);
     let route = await resolveRoutes(hash);
-    console.log(route);
+    console.log(route, routes);
     let render = routes[route] ? routes[route] : Error404;
-    console.log(render);
     content.innerHTML = await render();
 };
 

@@ -1,8 +1,8 @@
 const resolveRoutes = (route) => {
-    console.log(route);
-    if (route.length <= 3) {
-        let validRoute = route === '/' ? route : '/:name';
-        return validRoute;
+    if (route === '/') {
+        return route;
+    } else if (route === 'characters') {
+        return '/characters/:name';
     }
     return `/${route}`;
 };

@@ -4,6 +4,7 @@
   "description": "Single Page Application with the information of Dragon Ball characters.",
   "main": "src/index.js",
   "scripts": {
+    "proxy": "lcp --proxyUrl https://dragon-ball-api.herokuapp.com",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
@@ -31,6 +32,7 @@
     "@babel/core": "^7.11.1",
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.3.0",
+    "local-cors-proxy": "^1.1.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
