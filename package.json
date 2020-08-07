@@ -1,7 +1,7 @@
 {
-  "name": "marvel-characters",
+  "name": "dragonball-characters",
   "version": "1.0.0",
-  "description": "Single Page Application with the information of Marvel characters.",
+  "description": "Single Page Application with the information of Dragon Ball characters.",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -9,24 +9,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fjflores92/marvel-characters.git"
+    "url": "git+https://github.com/fjflores92/dragonball-characters.git"
   },
   "keywords": [
-    "marvel",
+    "dragonball",
     "characters",
     "spa",
     "single",
     "page",
     "application",
-    "marvel",
+    "dragonball",
     "characters"
   ],
   "author": "Francisco Flores <fflores.ic.ipn@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fjflores92/marvel-characters/issues"
+    "url": "https://github.com/fjflores92/dragonball-characters/issues"
   },
-  "homepage": "https://github.com/fjflores92/marvel-characters#readme",
+  "homepage": "https://github.com/fjflores92/dragonball-characters#readme",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "babel-loader": "^8.1.0",
