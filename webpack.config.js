@@ -4,6 +4,11 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
+    devServer: {
+        port: 9000,
+        compress: true,
+        disableHostCheck: true
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js'
@@ -16,9 +21,7 @@ module.exports = {
             {
                 test: /\.js?$/,
                 exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader'
-                }
+                use: 'babel-loader'
             }
         ]
     },
@@ -32,9 +35,5 @@ module.exports = {
             from: './src/styles/styles.css',
             to: ''
         }])
-    ],
-    devServer: {
-        compress: true,
-        disableHostCheck: true
-    }
+    ]
 }

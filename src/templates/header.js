@@ -1,27 +1,13 @@
 const Header = () => {
-    /*const view = `
-        <div class="header-main">
-            <div class="header-logo">
-                <h1>
-                    <a href="/">Rick & Morty</a>
-                </h1>
-            </div>
-            <div class="header-nav">
-                <a href="#/about">
-                    About
-                </a>
-            </div>
-        </div>
-    `;*/
     const view = `
         <div class="header-main">
             <div class="header-logo">
                 <h1>
-                    <a href="/">Dragon Ball</a>
+                    <a class="nav-button" href="#" data-pathname="">Rick & Morty</a>
                 </h1>
             </div>
             <div class="header-nav">
-                <a href="#/about">
+                <a class="nav-button" href="#" data-pathname="about">
                     About
                 </a>
             </div>
