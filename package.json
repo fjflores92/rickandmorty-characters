@@ -38,6 +38,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "copy-webpack-plugin": "^5.1.1",
     "fetch-jsonp": "^1.1.3"
   }
 }

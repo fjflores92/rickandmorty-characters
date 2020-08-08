@@ -6,11 +6,11 @@ const Header = () => {
                     <a href="/">Rick & Morty</a>
                 </h1>
             </div>
-        </div>
-        <div class="header-nav">
-            <a href="#/about">
-                About
-            </a>
+            <div class="header-nav">
+                <a href="#/about">
+                    About
+                </a>
+            </div>
         </div>
     `;*/
     const view = `
@@ -20,11 +20,11 @@ const Header = () => {
                     <a href="/">Dragon Ball</a>
                 </h1>
             </div>
-        </div>
-        <div class="header-nav">
-            <a href="#/about">
-                About
-            </a>
+            <div class="header-nav">
+                <a href="#/about">
+                    About
+                </a>
+            </div>
         </div>
     `;
     return view;
