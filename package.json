@@ -1,7 +1,7 @@
 {
-  "name": "dragonball-characters",
+  "name": "rickandmorty-characters",
   "version": "1.0.0",
-  "description": "Single Page Application with the information of Dragon Ball characters.",
+  "description": "Single Page Application with the information of Rick & Morty characters.",
   "main": "src/index.js",
   "scripts": {
     "proxy": "lcp --proxyUrl https://dragon-ball-api.herokuapp.com",
@@ -10,24 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fjflores92/dragonball-characters.git"
+    "url": "git+https://github.com/fjflores92/rickandmorty-characters.git"
   },
   "keywords": [
-    "dragonball",
+    "rickandmorty",
     "characters",
     "spa",
     "single",
     "page",
     "application",
-    "dragonball",
+    "rickandmorty",
     "characters"
   ],
   "author": "Francisco Flores <fflores.ic.ipn@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fjflores92/dragonball-characters/issues"
+    "url": "https://github.com/fjflores92/rickandmorty-characters/issues"
   },
-  "homepage": "https://github.com/fjflores92/dragonball-characters#readme",
+  "homepage": "https://github.com/fjflores92/rickandmorty-characters#readme",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/plugin-proposal-class-properties": "^7.10.4",

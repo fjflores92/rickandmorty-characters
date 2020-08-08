@@ -5,7 +5,7 @@ const Home = async () => {
     const view = `
         <div class="characters">
             ${characters.results.map(character => `
-                <article class="character-item">
+                <article class="characters-item">
                     <a class="nav-button" href="#" data-pathname="characters" data-params="${character.id}">
                         <img src="${character.image}" alt="${character.name}">
                         <h2>${character.name}</h2>
